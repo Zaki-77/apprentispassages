@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    gap: 210px;
+}
+header img {
+    height: 50px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.menu-burger {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #6a1b9a;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.burger-menu {
+    display: none; /* Par défaut, le menu est caché */
+    flex-direction: column;
+}
+
+.burger-menu.active {
+    display: flex; /* Affiche le menu quand la classe 'active' est ajoutée */
+}
+
+.burger-menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color:  #6a1b9a;
+    border-bottom: 12px solid #fff;
+    border-radius: 10px;
+}
+.cta-buttons {
+    display: flex;
+    gap: 10px;
+}
+.cta-buttons a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #6a1b9a;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

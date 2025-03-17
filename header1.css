@@ -1,0 +1,94 @@
+/* Préfixe pour éviter les conflits avec pagestyle.css */
+.header1-nav {
+    background-color: white;
+    color: black !important;
+    border-bottom: 1px purple solid;
+    height: 100px;
+    line-height: 100px;
+    padding: 10 20px;
+    justify-items: space-between;
+}
+
+.text {
+    font-size: 24px;
+    color: #4B0082;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.subtext {
+    font-size: 12px;
+    color: #4B0082;
+    display: inline-block; 
+}
+
+.header1-nav a {
+    color: black;
+}
+
+.header1-nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1-nav .material-icons {
+    display: inline;
+}
+
+.header1-brand-logo img {
+    height: 80px;
+}
+
+.header1-sousmenu {
+    background-color: #fbb726;
+    display: none;
+    padding: 20px;
+    height: 140px;
+}
+
+.header1-sousmenu a {
+    color: black;
+}
+
+.header1-sousmenu h5 {
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header1-sousmenu ul {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+}
+
+.header1-sousmenu ul li {
+    margin: 5px 0;
+}
+
+.header1-sousmenu.active {
+    display: block;
+}
+
+.header1-header {
+    padding: 0;
+    /* margin-top: 50px;  */
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+.header1-menuTop {
+    position: relative;
+}
+
+.header1-sousmenu {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
